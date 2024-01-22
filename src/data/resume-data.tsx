@@ -48,12 +48,23 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Innovance Consultancy",
+      link: "https://www.innovance.com.tr/",
+      badges: ["Remote"],
+      title: "Software Developer Intern(React/React Native)",
+      start: "2024/02",
+      end: "present",
+      description:
+        "",
+    },
+
+    {
       company: "Arcelik Global",
       link: "https://www.arcelikglobal.com/",
       badges: ["Remote"],
       title: "Software Developer Intern PREP",
       start: "2022/12",
-      end: "present",
+      end: "2024/02",
       description:
         "I am working on an employee management application called Connecta at Arçelik. In this project, I am working on a module developed for employees to enter expenses. I contribute to this project by using technologies such as React, Redux Saga and Material UI.",
     },
@@ -65,7 +76,7 @@ export const RESUME_DATA = {
       start: "2022/07",
       end: "2022/10",
       description:
-        "During my time at Producter, I worked on the development of a comprehensive cyclethat included feedback collection, task management, roadmap tracking, and update sharing for teams. I developed a block text editor using slate.js and dndkit libraries for the Documentation module. I Built billing and plans pages using Stripe API, and created a custom checkout pageusing Stripe API for the payment screen. I also used GraphQL and Redux Toolkit technologies",
+        "During my time at Producter, I worked on the development of a comprehensive cycle that included feedback collection, task management, roadmap tracking, and update sharing for teams. I developed a block text editor using slate.js and dndkit libraries for the Documentation module. I Built billing and plans pages using Stripe API, and created a custom checkout pageusing Stripe API for the payment screen. I also used GraphQL and Redux Toolkit technologies",
     },
   ],
   skills: [
