@@ -1,4 +1,3 @@
-
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -6,11 +5,10 @@ export const RESUME_DATA = {
   initials: "SK",
   location: "Izmir, Turkey",
   locationLink: "https://www.google.com/maps/place/Izmir",
-  about:
-    "A computer engineering student and software developer experienced in web technologies.",
+  about: "Software developer experienced in web and mobile technologies.",
   summary:
-    "I am a senior computer engineering student and a software developer with 1.5 years of internship experience. As a creative and solution-oriented software developer, I am committed to solving problems with the most efficient solutions. I work carefully on code quality and performance optimization in the projects I implement or participate in. I have been actively contributed in my previous internship experiences and in the process, I have developed my skills in working in a team and communicating effectively. I am actively working on web technologies, especially in my internship experience, I have successfully used React, JavaScript and Redux technologies. I am also focusing on Swift and React Native to improve myself in mobile programming. I am always open to continuous learning and adapting to new technologies. I value collaboration and knowledge sharing within a team, and I can contribute using my technical knowledge and problem solving skills by working as part of a dynamic and innovative team.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/68056590?s=400&u=9ac4f57e4cca3caf7b97f095aeb2c87297646617&v=4",
+    "I am a software developer with a strong background in computer engineering and 2 years of working experience. I am a creative and solution-oriented developer, committed to solving problems with the most efficient solutions. I prioritize code quality and performance optimization in the projects I work on. Throughout my internship experiences, I contributed actively to the teams I worked with, which helped me develop strong teamwork and communication skills. Currently, I focus on developing projects with React and React Native, using TypeScript in my professional life. I am also interested in mobile technologies and continue to expand my skills in Swift and SwiftUI. I am always open to continuous learning and adapting to new technologies. I value collaboration and knowledge sharing, and I strive to bring my technical expertise and problem-solving skills to dynamic and innovative teams.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/68056590?v=4",
   contact: {
     email: "korkmz.sedat@gmail.com",
     tel: "+90 551 122 31 22",
@@ -35,9 +33,9 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Ege University",
-      degree: "Bachelor's Degree in Computer Engineering",
+      degree: "Bachelor's Degree in Computer Engineering(GPA: 3.8/4.0)",
       start: "2022",
-      end: "present(expected graduation 2024)",
+      end: "2024",
     },
     {
       school: "Bakırçay University",
@@ -51,13 +49,21 @@ export const RESUME_DATA = {
       company: "Innovance Consultancy",
       link: "https://www.innovance.com.tr/",
       badges: ["Remote"],
-      title: "Software Developer Intern(React/React Native)",
-      start: "2024/02",
+      title: "Software Developer",
+      start: "2024/10",
       end: "present",
       description:
-        "",
+        "I am part of a team developing a banking application that includes both an online banking platform and a mobile application, utilizing TypeScript, Next.js, React Native, and RTK Query. I work together with team members to design and implement essential features, including user authentication, account creation, transaction history, account management, settings, and transfer functionalities. Additionally, I contribute to maintaining the performance and reliability of these features in the production environment.",
     },
-
+    {
+      company: "Innovance Consultancy",
+      link: "https://www.innovance.com.tr/",
+      badges: ["Remote"],
+      title: "Software Developer Intern(React/React Native)",
+      start: "2024/02",
+      end: "2024/10",
+      description: "",
+    },
     {
       company: "Arcelik Global",
       link: "https://www.arcelikglobal.com/",
@@ -66,7 +72,7 @@ export const RESUME_DATA = {
       start: "2022/12",
       end: "2024/02",
       description:
-        "I am working on an employee management application called Connecta at Arçelik. In this project, I am working on a module developed for employees to enter expenses. I contribute to this project by using technologies such as React, Redux Saga and Material UI.",
+        "I worked on an employee management application called Connecta at Arçelik. In this project, I contributed to a module developed for employees to enter expenses. I utilized technologies such as React, Redux Saga, and Material UI.",
     },
     {
       company: "Producter",
@@ -83,12 +89,34 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "React/Next.js",
-    "Node.js",
-    "GraphQL",
-    "SQL",
-    "NoSQL",
-    "Git",
-    "Figma"
+    "Web Technologies",
+    "Mobile Technologies",
+    "Database Management(SQL & NoSQL)",
+    "Git version control",
+    "Team Collaboration",
+    "OOP",
+    "Figma",
+    "RESTful APIs",
+    "System Design",
   ],
-  
+  projects: [
+    {
+      title: "RestroPOS",
+      techStack: ["React", "TypeScript", "Vite", "Spring Boot", "Firebase"],
+      description:
+        "RestroPOS is a cloud-based digital solution that offers QR code-based menu and order management for restaurants, aiming to enhance operational efficiency.",
+      link: {
+        href: "https://github.com/sedatkimki/restroPOS",
+      },
+    },
+    {
+      title: "Dayanikli Gelecek",
+      techStack: ["Next.js", "TypeScript"],
+      description:
+        "Dayanikli Gelecek is an open-source social responsibility project aimed at raising awareness among people in Turkey about earthquake preparedness.",
+      link: {
+        href: "https://dayanikli-gelecek.vercel.app/",
+      },
+    },
+  ],
 } as const;
